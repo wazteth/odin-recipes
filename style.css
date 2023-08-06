@@ -1,13 +1,39 @@
 #odin-photo{
-    width: 200px;
+    width: 300px;
 }
 body{
     background-color: navajowhite;
     color: #696969;
+    box-sizing: border-box;
 }
+
 h1{
     color: #420420;
+    margin: -5px auto 50px;
+    background-color: red;
 }
 #salad-size{
     width: 400px;
+}
+.card {
+    width: 540px;
+    background-color: pink;
+    margin:30px auto;
+    border: 3px solid red;
+    padding: 20px 20px;
+    text-align: center;
+}
+#mainBtn {
+    background-color: firebrick;
+    padding: 5px 10px;
+    border-radius: 15px;
+    }
+#recipes{
+    text-decoration: none;
+    background-color: lightblue;
+    border: 1px solid crimson;
+    padding: 10px 20px 10px 20px;
+}
+a {
+    text-decoration: none;
 }
